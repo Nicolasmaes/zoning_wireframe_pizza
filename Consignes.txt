@@ -1,0 +1,18 @@
+FIGMA LANDING PAGE
+
+etape 1 : tapez landing page dans la community Figma
+
+etape 2 : choisir une landing page version desktop
+
+etape 3 : dupliquer cette landing page sur Figma
+
+etape 4 : en mode rétro-ingénierie, réaliser le wireframe et le zoning
+outils : Figma, Photoshop, Illustrator, Gimp, Inkscape, Pencil Project...
+
+etape  5 : réaliser sur la base de ce wireframe version desktop, le zoning et le wireframe version mobile
+
+etape 6 : sur la base du wireframe version mobile, réaliser le mockup à fournir au développeur pour une intégration haute fidélité version mobile
+
+etape 7 : intégrer les deux maquettes en mode responsive design en HTML / CSS / Bootstrap
+
+la publier sur github en public
