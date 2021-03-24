@@ -1,0 +1,98 @@
+@font-face{
+    font-family: 'Satisfy';
+    src: url("fonts/Satisfy-Regular.ttf") format('ttf');
+}
+@font-face{
+    font-family: 'Publica';
+    src: url("fonts/PublicaSans-Thin.otf") format('truetype'),
+         url("fonts/PublicaSans-Light.otf") format('otf'),
+         url('fonts/PublicaSans-Thin.otf') format('otf'),
+         url('fonts/PublicaSans-Medium.otf') format('otf');
+}
+body, html{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    border: 1px solid red;
+}
+.stf{
+    font-family:'Satisfy';
+}
+.pub{
+    font-family: 'Publica';
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.home{
+    background: url('img/background-01.png');
+    background-size: contain;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+#main-title{
+    font-size: 3rem;
+}
+h1{
+    color: #ec6669;
+}
+h2{
+    color: white;
+}
+.navbar{
+    color: white;
+}
+.navbar a{
+    padding: 0% 15px;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background:  url('img/6-3.png') center, url('img/rosemary.png') no-repeat right -500px;
+    background-size: cover;
+}
+.glass{
+    background: url('img/glass_cuisine.png') no-repeat bottom;
+}
+.glass h1{
+    font-size: 10vw;
+    margin: 8% 0%;
+    padding: 15% 0% 15% 0%;
+}
+.mainpizza{
+    position: relative;
+}
+.mainpizza .pizza0{
+    position: absolute;
+    top: -100px;
+}
+.glass h2{
+    font-size: 3vw;
+    margin: 10% 0%;
+}
+.pizza0{
+    max-width: 45%;
+}
+.menu-title{
+    color: black;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    text-align: justify;
+}
+.intro-title{
+    color: black;
+
+text-align: center;
+}
