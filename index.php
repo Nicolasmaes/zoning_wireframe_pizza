@@ -12,13 +12,12 @@
         <div class="welcome">
                 <div class="glass stf">
                 <h1>Italian<br>Cuisine</h1>
-                <h2>our specialities</h2>
+                <h2 class="our stf">our specialities</h2>
             </div> <!-- fermeture glass-->
         </div> <!-- fermeture welcome-->
         <div class="mainpizza stf">
             <img src="img/pizza.png" alt="pizza0" class="pizza0">
-            <h1>Italian Pizza</h1>
-            <img src="img/rosemary.png" alt="rosemary" class="rosemary">
+            <h1>Italian<br>Pizza</h1>
         </div> <!-- fermeture mainpizza -->
     </div> <!-- fermture home -->
     <h2 class="menu-title stf">menu</h2>
@@ -27,8 +26,13 @@
             <div class="card-body">
                 <img src="img/pizza-01.png" class="card-img-top" alt="pizza1">
                 <h5 class="card-title pub">Basil Margherita</h5>
-                <p class="price pub">$11.80</p>
-                <select class="pub" name="size" id="size"><option value="small ">Small</option><option value="medium">Medium</option></select>
+                <p class="price pub"><span class="dollar">$</span>14.50</p>
+                <div class="taille">
+                <span class="size">Size</span>
+                <div class="select">
+                <select class="select pub" name="size" id="size"><option value="small ">Small</option><option value="medium">Medium</option></select>
+                </div> <!-- fermeture select-->
+                </div> <!-- fermeture taille-->
                 <p class="card-text pub">Margherita pizza starts fresh basil, mozzarella, and the bas tomatoes you can find.  It's still a delicious, simple showcase of good quality produce, but the addition of crisp, chewy pizza crust, melty cheese, and warm sauce makes it a cozier, heartier meal.</p>
                 <a href="#" class="btn btn-primary pub">Add to basket</a>
             </div> <!-- fermeture card-body -->
@@ -37,8 +41,13 @@
             <div class="card-body">
                 <img src="img/pizza-02.png" class="card-img-top" alt="pizza2">
                 <h5 class="card-title pub">Jalapeño Popper</h5>
-                <p class="price pub">$14.50</p>
-                <select class="pub" name="size" id="size"><option value="small">Small</option><option value="medium">Medium</option></select>
+                <p class="price pub"><span class="dollar">$</span>11.80</p>
+                <div class="taille">
+                <span class="size">Size</span>
+                <div class="select">
+                <select class="select pub" name="size" id="size"><option value="small ">Small</option><option value="medium">Medium</option></select>
+                </div> <!-- fermeture select-->
+                </div> <!-- fermeture taille-->
                 <p class="card-text pub">All the flavors of a cheesy jalapeño popper is so much better in pizza form, with added bacon of course ! Imagine a jalapeño popper in the form of a pizza. Yes, it's as epic as it sounds. And better than a traidtional jalapeño popper in my opinion.</p>
                 <a href="#" class="btn btn-primary pub">Add to basket</a>
             </div> <!-- fermeture card-body -->
@@ -47,8 +56,13 @@
             <div class="card-body">
                 <img src="img/pizza-01.png" class="card-img-top" alt="pizza1">
                 <h5 class="card-title pub">Basil Margherita</h5>
-                <p class="price pub">$11.80</p>
-                <select class="pub" name="size" id="size"><option value="small">Small</option><option value="medium">Medium</option></select>
+                <p class="price pub"><span class="dollar">$</span>14.50</p>
+                <div class="taille">
+                <span class="size">Size</span>
+                <div class="select">
+                <select class="select pub" name="size" id="size"><option value="small ">Small</option><option value="medium">Medium</option></select>
+                </div> <!-- fermeture select-->
+                </div> <!-- fermeture taille-->
                 <p class="card-text pub">Margherita pizza starts fresh basil, mozzarella, and the bas tomatoes you can find.  It's still a delicious, simple showcase of good quality produce, but the addition of crisp, chewy pizza crust, melty cheese, and warm sauce makes it a cozier, heartier meal.</p>
                 <a href="#" class="btn btn-primary">Add to basket</a>
             </div> <!-- fermeture card-body -->
@@ -57,10 +71,17 @@
             <div class="card-body">
                 <img src="img/pizza-02.png" class="card-img-top" alt="pizza2">
                 <h5 class="card-title pub">Jalapeño Popper</h5>
-                <p class="price pub">$14.50</p>
-                <select class="pub" name="size" id="size"><option value="small pub">Small</option><option value="medium pub">Medium</option></select>
+                <p class="price pub"><span class="dollar">$</span>11.80</p>
+                <div class="taille">
+                <span class="size">Size</span>
+                <div class="select">
+                <select class="select pub" name="size" id="size"><option value="small ">Small</option><option value="medium">Medium</option></select>
+                </div> <!-- fermeture select-->
+                </div> <!-- fermeture taille-->
+                <div class="text">
                 <p class="card-text pub">All the flavors of a cheesy jalapeño popper is so much better in pizza form, with added bacon of course ! Imagine a jalapeño popper in the form of a pizza. Yes, it's as epic as it sounds. And better than a traidtional jalapeño popper in my opinion.</p>
                 <a href="#" class="btn btn-primary">Add to basket</a>
+                </div>
             </div> <!-- fermeture card-body -->
         </div> <!-- fermeture card -->
     </div> <!-- fermeture menu -->
