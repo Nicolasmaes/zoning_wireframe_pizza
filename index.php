@@ -93,14 +93,14 @@
             <p class="pub">As in 1897, our goal is still to preserve the local Italian flavor and pass it to future generations !  For this, we constantly work and do research to obtain the most delicious and natural ingredients. With more than two hundred branches around the world, we are with you wherever you go !<br><br>You can reach us 24/7 from our website or mobile application, and you can enjoy this excellent taste at any time !</p>
         </div> <!-- fermeture introduction -->
         <div class="two_icons">
-            <div class="ingredients">
-                <img src="img/ingredients.png" alt="ingredients">
-                <p>ingredients</p>
-            </div> <!-- fermeture ingredients -->
-            <div class="branches">
+            <div class="legume">
+                <img id="legume" src="img/ingredients.png" alt="ingredients">
+                <p class="ing">ingredients</p>
+            </div><!-- fermeture legume -->
+        <div class="maison">
                 <img src="img/branches.png" alt="branches">
-                <p>branches</p>
-            </div> <!-- fermeture branches -->
+                <span class="bra">branches</span>
+        </div>
         </div>  <!-- fermeture two-icons -->
         <div class="contact">
             <h2>Contact us</h2>

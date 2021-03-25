@@ -16,7 +16,7 @@ body, html{
     background: url('img/background-01.png') repeat-y fixed;
 }
 *{
-    border: 1px dotted red;
+    border: 1px dotted grey;
 }
 .stf{
     font-family:'Satisfy';
@@ -194,11 +194,19 @@ p{
 }
 .two_icons{
     display: flex;
-    justify-content: center;
+
 }
-.two_icons img{
-display: flex;
-justify-content: center;
-width: 25%;
-height: auto;
+
+.bra{
+    text-align: left;
+    justify-content: center;
+    font-family: 'Satisfy';
+    color: white;
+    font-size: 3vw;
+}
+.ing{
+    text-align: right;
+    font-family: 'Satisfy';
+    color: white;
+    font-size: 3vw;
 }
