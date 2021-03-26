@@ -1,17 +1,18 @@
 <?php include 'header.php';?>
     <div class="home">
+        <div id="header"></div>
      <div class="header">
             <h2 class="header stf" id="main-title">pizza</h2>
             <div class="navbar stf">
-                <a href:".home"><p>home</p></a>
-                <a href:".menu"><p>menu</p></a>
-                <a href:".about"><p>about</p></a>
-                <a href:".checkout"><img src="img/caddie.png" alt="checkout"></a>
+                <a href="#header">home</a>
+                <a href="#menu00">menu</a>
+                <a href="#about">about</a>
+                <a href:=".checkout"><img src="img/caddie.png" alt="checkout"></a>
             </div> <!-- fermeture navbar -->
         </div> <!--fermeture header-->
         <div class="welcome">
                 <div class="glass stf">
-                <h1>Italian<br>Cuisine</h1>
+                <h1>Italian<br>Cuisine</h1></div>
                 <h2 class="our stf">our specialities</h2>
             </div> <!-- fermeture glass-->
         </div> <!-- fermeture welcome-->
@@ -20,6 +21,7 @@
             <h1>Italian<br>Pizza</h1>
         </div> <!-- fermeture mainpizza -->
     </div> <!-- fermture home -->
+    <div id="menu00"></div>
     <div class="menu0">
     <h2 class="menu-title stf">menu</h2>
     <div class="menu">
@@ -88,29 +90,35 @@
         <h2 class="intro-title stf">who are we ?</h2>
     </div> <!-- fermeture menu -->
     </div> <!-- fermeture menu0 -->
+    <div id="about"></div>
     <div class="about">
         <div class="introduction">
             <p class="pub">As in 1897, our goal is still to preserve the local Italian flavor and pass it to future generations !  For this, we constantly work and do research to obtain the most delicious and natural ingredients. With more than two hundred branches around the world, we are with you wherever you go !<br><br>You can reach us 24/7 from our website or mobile application, and you can enjoy this excellent taste at any time !</p>
         </div> <!-- fermeture introduction -->
         <div class="two_icons">
+            <div class="close">
             <div class="legume">
-                <img id="legume" src="img/ingredients.png" alt="ingredients">
+                <img id="vege" src="img/ingredients.png" alt="ingredients">
                 <p class="ing">ingredients</p>
             </div><!-- fermeture legume -->
-        <div class="maison">
-                <img src="img/branches.png" alt="branches">
-                <span class="bra">branches</span>
-        </div>
+            <div class="maison">
+                <img id="house" src="img/branches.png" alt="branches">
+                <p class="bra">branches</p>
+            </div> <!-- fermeture maison -->
+            </div> <!-- fermeture close -->
         </div>  <!-- fermeture two-icons -->
         <div class="contact">
-            <h2>Contact us</h2>
-            <a href="mailto:info@pizza.pizza.com">info@pizza.com</a>
+            <h2>contact us</h2>
+            <div class="links"><a href="mailto:info@pizza.pizza.com">info@pizza.com</a><br>
             <a href="tel:+005555555">+00 555 55 55</a>
+            </div> <!-- fermeture links-->
             <div class="social">
-                <a href="https/www.instagram.com" target="_blank"><img src="img/insta.png" alt="instagram"></a>
-                <a href="https/www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
-                <a href="https/www.facebook.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="img/insta.png" alt="instagram"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
             </div> <!-- fermeture social -->
+            
         </div> <!-- fermeture contact -->
+        <a href="#header" class="back stf">back to top</a>
     </div> <!-- fermeture about -->
 <?php include 'footer.php';?>
