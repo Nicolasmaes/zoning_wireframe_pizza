@@ -4,10 +4,16 @@
      <div class="header">
             <h2 class="header stf" id="main-title">pizza</h2>
             <div class="navbar stf">
+            <input type="checkbox" class="menupizza" id="menupizza-btn">
+                <label for="menupizza-btn"><img src="img/pizz.png" alt="menu pizza" id="pizza-btn"></label>
+                <label for="menupizza-btn" class="croix">X</label>
+                <div class="navdesktop">
                 <a href="#header">home</a>
                 <a href="#menu00">menu</a>
                 <a href="#about">about</a>
                 <a href:=".checkout"><img src="img/caddie.png" alt="checkout"></a>
+                </div>
+
             </div> <!-- fermeture navbar -->
         </div> <!--fermeture header-->
         <div class="welcome">
@@ -34,7 +40,7 @@
                 <div class="taille">
                 <span class="size">Size</span>
                 <div class="select">
-                <select class="select pub" name="size" id="size"><option value="small ">Small</option><option value="medium">Medium</option></select>
+                <select class="select pub" id="size" name="size" id="size"><option value="small ">Small</option><option value="medium">Medium</option></select>
                 </div> <!-- fermeture select-->
                 </div> <!-- fermeture taille-->
                 <p class="card-text pub">Margherita pizza starts fresh basil, mozzarella, and the bas tomatoes you can find.  It's still a delicious, simple showcase of good quality produce, but the addition of crisp, chewy pizza crust, melty cheese, and warm sauce makes it a cozier, heartier meal.</p>
