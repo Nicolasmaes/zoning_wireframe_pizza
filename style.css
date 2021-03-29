@@ -230,7 +230,7 @@ p{
     height: auto;
     max-width: 10rem;
 }
-.icon1-container, .icon2-container{
+.icon1container, .icon2-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -357,7 +357,7 @@ p{
         padding: 5%;
         color: black;
     }
-    .navdesktop{
+    .navbutton{
         display: none;
     }
     .menupizza{
@@ -370,7 +370,7 @@ p{
         right: 0;
         top: 0.5rem;
     }
-    .menupizza:checked ~ .navdesktop{
+    .menupizza:checked ~ .navbutton{
         display: flex;
         flex-direction: column;
         background: url('img/6-9.png'), url('img/background-01.png');
@@ -383,12 +383,12 @@ p{
         top: 0;
         transition: 0.5s;
     }
-    .menupizza:checked ~ .navdesktop a{
+    .menupizza:checked ~ .navbutton a{
         flex-direction: column;
         text-align: center;
         color: #ec6669;
     }
-    .menupizza:checked ~ .navdesktop img{
+    .menupizza:checked ~ .navbutton img{
         filter: invert(1);
     }
     .menupizza:checked ~ label{

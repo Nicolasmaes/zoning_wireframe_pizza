@@ -7,7 +7,7 @@
             <input type="checkbox" class="menupizza" id="menupizza-btn">
 
             <label for="menupizza-btn"><img src="img/pizz.png" alt="menu pizza" id="pizza-btn"></label>
-                <div class="navdesktop">
+                <div class="navbutton">
                 <a href="#header">home</a>
                 <a href="#menu00">menu</a>
                 <a href="#about">about</a>
