@@ -1,0 +1,407 @@
+@font-face{
+    font-family: 'Satisfy';
+    src: url("fonts/Satisfy-Regular.ttf") format('ttf');
+}
+@font-face{
+    font-family: 'Publica';
+    src: url("fonts/PublicaSans-Thin.otf") format('truetype'),
+         url("fonts/PublicaSans-Light.otf") format('otf'),
+         url('fonts/PublicaSans-Thin.otf') format('otf'),
+         url('fonts/PublicaSans-Medium.otf') format('otf'),
+         url('fonts/PublicaSans-Bold.otf') format('otf');
+}
+body, html{
+    display: flex;
+    flex-direction: column;
+    background: url('img/background-01.png') repeat-y fixed;
+}
+.stf{
+    font-family:'Satisfy';
+}
+.pub{
+    font-family: 'Publica';
+    font-weight: bold;
+}
+a{
+    text-decoration: none;  
+}
+a:visited{
+    color: white;
+}
+/*.home, .about{
+    background: url('img/background-01.png') repeat-y;
+}*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 4vh;
+}
+#main-title{
+    font-size: 3rem;
+    padding-left: 2%;
+}
+h1{
+    color: #ec6669;
+}
+h2{
+    color: white;
+}
+.navbar{
+    display: flex;
+    color: white;
+    position: absolute;
+    right:0;
+}
+.menupizza{
+    display: flex;
+}
+#menupizza-btn{
+    display: none;
+}
+label{
+    display: none;
+}
+label img{
+    display: flex;
+    max-width: 3rem;
+}
+.navbar a{
+    padding: 0% 15px;
+}
+.welcome{
+    justify-content: center;
+    text-align: center;
+    background: url('img/6-3.png'),url('img/rsm3.png') no-repeat;
+    background-position: bottom right;
+    background-size:100% 100%, 15% auto;
+    background-repeat: no-repeat;
+}
+.glass h1{
+    font-size: 10vw;
+    margin: 100px 0px;
+}  
+.glass h2{
+    margin-top: 140px;
+}
+.our{
+    font-size: 4vw;
+    margin: 0% 0%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.mainpizza{
+    display: flex;
+    flex-direction: row;;
+}
+.mainpizza h1{
+    color: white;
+    font-size: 5rem;
+    margin: auto;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+.rosemary{
+    align-self: flex-start;
+}
+.pizza0{
+    max-width: 20rem;
+}
+.menu0{
+    background: url('img/6-8.png') no-repeat;
+    background-size: 100% 95%;
+}
+.menu-title{
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 4vw;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-title, .price{
+    text-align: center;
+    font-weight: bold;
+}
+.card{
+    padding: 0 0.5%;
+    display: flex;
+    position: relative;
+    border: none;
+    background: none;
+}
+.card p, .card h5, .card select{
+    color: black;
+}
+ #size{
+font-size: 1.2rem;
+border: none;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-text{
+    line-height: 19px;
+    text-align: left;
+    font-size: 1rem !important;
+    margin-bottom: 40px;
+}
+.flip:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.flip{
+    transition: 0.5s;
+}
+.select{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+    background: none;
+}
+.size{
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+    font-family: 'publica';
+    font-weight: bold;
+}
+.dollar{
+    font-size: 0.75rem;
+}
+.btn{
+    bottom: 10px;
+    color: #ec6669 !important;
+    border: 1px solid #ec6669;
+    border-radius: 20px;
+    width: 75%;
+    font-family: 'publica';
+    font-weight: bold;
+    position: absolute;
+}
+.btn:hover{
+    background: #ec6669;
+    color:white !important;
+}
+.btn:visited{
+    background: #ec6669;
+}
+p{
+    text-align: justify;
+}
+.introduction p{
+    font-weight: 100;
+    font-size: 1.2rem;
+    letter-spacing: 0.08rem;
+
+}
+.intro-title{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 4vw;
+}
+.pub{
+    color: white;
+    padding: 0px 5%;
+    font-size: 2vw;
+}
+.two_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.close{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+    width: 55%;
+}
+#vege, #house{
+    width: 100%;
+    height: auto;
+    max-width: 10rem;
+}
+.legume, .maison{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bra{
+    text-align: left;
+    justify-content: center;
+    font-family: 'Satisfy';
+    color: white;
+    font-size: 3.5vw;
+}
+.ing{
+    text-align: right;
+    font-family: 'Satisfy';
+    color: white;
+    font-size: 3.5vw;
+}
+.contact{
+    justify-content: center;
+    text-align: center;
+    background: url('img/myglass.png'),url('img/6-3.png');
+    background-size: 25% 95%, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left 50% bottom 5%, center;
+    background-size: contain cover;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    color: black;
+}
+.contact h2{
+    font-family: 'satisfy';
+    color: black;
+}
+.links{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.links a{
+    color: black;
+    font-family: 'publica';
+    font-weight: bolder;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.social img{
+    height: 1.5rem;
+}
+.back{
+    display: flex;
+    font-size: 3vw;
+    margin-top: 0%;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 45rem)
+{
+    .glass h1{
+        font-size: 5rem;
+    }
+    .our{
+        font-size: 3rem;
+    }
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu-title{
+        font-size: 2rem;
+    }
+    .welcome{
+        justify-content: center;
+        text-align: center;
+        background: url('img/6-3.png');
+        background-position: bottom right;
+        background-size:100% 100%, 15% auto;
+        background-repeat: no-repeat;
+    }
+    .mainpizza{
+        flex-direction: column;
+    }
+    .pizza0{
+        order: 2;
+    }
+    .close{
+        flex-direction: column;
+    }
+    .back{
+        font-size: 2rem;
+    }
+    .intro-title{
+        font-size: 2rem;
+        background-color: rgb(61, 61, 61);
+        width: 40%;
+        margin: 5% auto;
+        padding: 5px;
+        border-radius: 20px;
+        border: none;
+    }
+    .menu0{
+        background: url('img/6-8.png') no-repeat;
+        background-size: cover;
+    }
+    .social img{
+        height: 2rem;
+    }
+    .contact{
+        justify-content: center;
+        text-align: center;
+        background: url('img/myglass.png'),url('img/6-3.png');
+        background-size: 45% 95%, 100% 100%;
+        background-repeat: no-repeat;
+        background-position: left 50% bottom 5%, center;
+        background-size: contain cover;
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        color: black;
+    }
+    .navdesktop{
+        display: none;
+    }
+    .menupizza{
+        display: flex;
+        background: url('img/pizz.png');
+    }
+    label{
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0.5rem;
+    }
+    .menupizza:checked ~ .navdesktop{
+        display: flex;
+        flex-direction: column;
+        background: url('img/6-9.png'), url('img/background-01.png');
+        background-size: 100%;
+        width: 100vw;
+        height: 100vh;
+        align-items: stretch;
+        justify-content: space-evenly;
+        font-size: 3rem;
+        top: 0;
+        transition: 0.5s;
+    }
+    .menupizza:checked ~ .navdesktop a{
+        flex-direction: column;
+        text-align: center;
+        color: #ec6669;
+    }
+    .menupizza:checked ~ .navdesktop img{
+        filter: invert(1);
+    }
+    .menupizza:checked ~ label{
+        transform: rotate(-67deg);
+        transition: 0.5s;
+        position: absolute;
+        right: 0;
+        top: 0.5rem;
+    }
+    label{
+        transition: 0.5s;
+    }
+    .menupizza:checked ~ body{
+        overflow: hidden;
+    }
+}

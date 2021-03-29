@@ -5,13 +5,14 @@
             <h2 class="header stf" id="main-title">pizza</h2>
             <div class="navbar stf">
             <input type="checkbox" class="menupizza" id="menupizza-btn">
-                <label for="menupizza-btn"><img src="img/pizz.png" alt="menu pizza" id="pizza-btn"></label>
-                <label for="menupizza-btn" class="croix">X</label>
+
+            <label for="menupizza-btn"><img src="img/pizz.png" alt="menu pizza" id="pizza-btn"></label>
                 <div class="navdesktop">
                 <a href="#header">home</a>
                 <a href="#menu00">menu</a>
                 <a href="#about">about</a>
                 <a href:=".checkout"><img src="img/caddie.png" alt="checkout"></a>
+
                 </div>
 
             </div> <!-- fermeture navbar -->
