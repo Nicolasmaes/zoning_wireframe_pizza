@@ -71,9 +71,9 @@ label img{
 .welcome{
     justify-content: center;
     text-align: center;
-    background: url('img/6-3.png'),url('img/rsm3.png') no-repeat;
-    background-position: bottom right;
-    background-size:100% 100%, 15% auto;
+    background: url('img/glass_cuisine.png'), url('img/6-3.png'),url('img/rsm3.png') no-repeat;
+    background-position: bottom, center,  bottom right;
+    background-size: 20% 70%, 100% 100%, 15% auto;
     background-repeat: no-repeat;
 }
 .glass h1{
@@ -225,26 +225,26 @@ p{
     column-gap: 5%;
     width: 55%;
 }
-#vege, #house{
+#icon1, #icon2{
     width: 100%;
     height: auto;
     max-width: 10rem;
 }
-.legume, .maison{
+.icon1-container, .icon2-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
 }
-.bra{
+.icon2text{
     text-align: left;
     justify-content: center;
     font-family: 'Satisfy';
     color: white;
     font-size: 3.5vw;
 }
-.ing{
+.icon1text{
     text-align: right;
     font-family: 'Satisfy';
     color: white;
@@ -393,15 +393,15 @@ p{
     }
     .menupizza:checked ~ label{
         transform: rotate(-67deg);
-        transition: 0.5s;
+        transition: 0.25s;
         position: absolute;
         right: 0;
         top: 0.5rem;
     }
     label{
-        transition: 0.5s;
+        transition: 0.25s;
     }
-    .menupizza:checked ~ body{
-        overflow: hidden;
+    .menupizza:checked ~ html{
+        overflow-y: hidden;
     }
 }

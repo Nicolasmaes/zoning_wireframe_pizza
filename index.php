@@ -12,9 +12,7 @@
                 <a href="#menu00">menu</a>
                 <a href="#about">about</a>
                 <a href:=".checkout"><img src="img/caddie.png" alt="checkout"></a>
-
                 </div>
-
             </div> <!-- fermeture navbar -->
         </div> <!--fermeture header-->
         <div class="welcome">
@@ -104,13 +102,13 @@
         </div> <!-- fermeture introduction -->
         <div class="two_icons">
             <div class="close">
-            <div class="legume">
-                <img id="vege" src="img/ingredients.png" alt="ingredients">
-                <p class="ing">ingredients</p>
+            <div class="icon1-container">
+                <img id="icon1" src="img/ingredients.png" alt="ingredients">
+                <p class="icon1text">ingredients</p>
             </div><!-- fermeture legume -->
-            <div class="maison">
-                <img id="house" src="img/branches.png" alt="branches">
-                <p class="bra">branches</p>
+            <div class="icon2-container">
+                <img id="icon2" src="img/branches.png" alt="branches">
+                <p class="icon2text">branches</p>
             </div> <!-- fermeture maison -->
             </div> <!-- fermeture close -->
         </div>  <!-- fermeture two-icons -->
