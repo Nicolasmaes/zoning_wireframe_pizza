@@ -18,7 +18,7 @@
         <div class="welcome">
             <div class="glass stf">
                 <h1>Italian<br>Cuisine</h1></div>
-                <h2 class="our stf">our specialities</h2>
+                <h2 class="stf">our specialities</h2>
             </div> <!-- fermeture glass-->
         </div> <!-- fermeture welcome-->
         <div class="mainpizza stf">
@@ -135,6 +135,6 @@
                 <a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
             </div> <!-- fermeture social -->   
         </div> <!-- fermeture contact -->
-        <a href="#header" class="back stf">back to top</a> <!-- cette div est utilisée come une ancre pour revenir en haut de la page -->
+        <a href="#home-ancre" class="back stf">back to top</a> <!-- cette div est utilisée come une ancre pour revenir en haut de la page -->
         </div> <!-- fermeture about -->
 <?php include 'footer.php';?>

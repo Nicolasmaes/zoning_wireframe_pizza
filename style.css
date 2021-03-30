@@ -79,8 +79,6 @@ label img{
 }  
 .glass h2{
     margin-top: 140px;
-}
-.our{
     font-size: 4vw;
     margin: 0% 0%;
     margin-bottom: 25px;
@@ -295,7 +293,7 @@ p{
     .glass h1{
         font-size: 5rem;
     }
-    .our{
+    .glass h2{
         font-size: 3rem;
     }
     .cards-container{
