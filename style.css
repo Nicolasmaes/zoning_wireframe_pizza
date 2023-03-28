@@ -22,7 +22,7 @@ body, html{
     font-family: 'Publica';
     font-weight: bold;
 }
-a{
+.navbutton a{
     text-decoration: none;  
 }
 a:visited{
@@ -323,9 +323,6 @@ p{
     .main-pizza-img{
         order: 2;
     }
-    .close{
-        flex-direction: column;
-    }
     .back{
         font-size: 2rem;
     }
@@ -403,5 +400,8 @@ p{
 
     .menupizza:checked ~ html{
         overflow-y: hidden;
+    }
+    .two_icons-container{
+        flex-direction: column;
     }
 }
